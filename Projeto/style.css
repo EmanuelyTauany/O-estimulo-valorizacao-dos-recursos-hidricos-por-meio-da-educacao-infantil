@@ -1,0 +1,99 @@
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Novidades{
+    background-color:white;
+    width:1300px;
+    padding:10px;
+    margin:auto;
+    border-radius:10px;
+    font-family:cursive;
+}
+
+.sessao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 38, 141);
+    padding:30px;
+    border: 1px solid #ddd;
+    margin: auto;
+    
+}
+
+.gotinhas{
+    display: flex;
+    justify-content:center;
+    padding:40px;
+    margin:10px;
+    background-color:rgb(255, 255, 255);
+    border:1px solid #ddd;
+    border-radius:30px;
+
+}
+
+body{
+background-image: url(img/fundopeixinhos.png);
+background-size: 1600px 1600px;
+}
+
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(0, 0, 0, 0.938);
+    font-size:30px;
+    
+}
+
+got{
+
+display: inline-block;
+padding:100px;
+margin: 100px;
+text-decoration:none;
+text-align:center;
+justify-content: center;
+margin-right:20px;
+
+}
+
+img{
+    display:block;
+    flex-direction:column;
+    justify-content:center;
+}
+
+a{
+    display:inline-block;
+    text-align:center;
+
+    text-decoration:none;
+    justify-content:center;
+    margin-right:20px;
+}
+
+#ondas{
+    right:120px;
+    left:80px;
+}
+
+.viewBox{
+    background-color:white;
+    width:1000px;
+    padding:10px;
+    border-radius:10px;
+
+
+}
+
+#nomesite{
+    font-family:monospace;
+    color:rgb(255, 255, 255);
+    text-align:center;
+}
+
+brbrasao{
+    display:block;
+    justify-content:center;
+}
