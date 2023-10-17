@@ -1,21 +1,50 @@
-.Palestra{
- background-color:white;
- border-radius:10px;
-}
-
-.Atividades{
+.divisao{
     background-color:white;
-    border-radius:10px;
-}
-
-img{
-    display:inline-block;
+    border-radius:20px;
+    height:280px;
+    width:1300px;
+    overflow-y:visible;
+    overflow-x:scroll;
+    border:5px solid #ccc;
     padding:10px;
-    margin:10px;
-    justify-content:center;
-    width:250px;
-    right:200px;
-    left:200px;
-    margin:20px;
-    border-radius:10px;
-}
+    white-space: nowrap;
+    display: inline-block;
+     
+   }
+   
+   .rigth-arrow{
+       width:40px;
+       height:30px;
+       color:black;
+   }
+   .quadrado{
+       background-color:white;
+       border-radius:20px;
+       height:150px;
+       width:230px;
+       overflow-y:visible;
+       overflow-wrap: break-word;
+       border:5px solid #ccc;
+       padding:10px;
+       white-space: nowrap;
+       display:inline-block;
+       cursor:pointer;
+       
+   }
+   
+   
+   .Atividades{
+       background-color:white;
+       border-radius:10px;
+   }
+   
+   .fotos{
+       display:inline-block;
+       margin:10px;
+       justify-content:center;
+       width:200px;
+       right:200px;
+       left:200px;
+       margin:20px;
+       border-radius:10px;
+   }
