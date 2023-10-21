@@ -6,7 +6,7 @@
     "configurations": [
         
         {
-            "type": "chrome",
+            "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
             "file": "/workspaces/O-estimulo-valorizacao-dos-recursos-hidricos-por-meio-da-educacao-infantil/Projeto/index.html",
