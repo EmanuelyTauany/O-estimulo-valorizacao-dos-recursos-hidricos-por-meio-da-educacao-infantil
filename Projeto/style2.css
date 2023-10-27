@@ -12,12 +12,7 @@
      
    }
    
-   .rigth-arrow{
-       width:40px;
-       height:30px;
-       color:black;
-   }
-   .quadrado{
+.quadrado{
        background-color:white;
        border-radius:20px;
        height:150px;
@@ -30,15 +25,15 @@
        display:inline-block;
        cursor:pointer;
        
-   }
+}
    
    
-   .Atividades{
+.Atividades{
        background-color:white;
        border-radius:10px;
-   }
+}
    
-   .fotos{
+.fotos{
        display:inline-block;
        margin:10px;
        justify-content:center;
@@ -47,4 +42,4 @@
        left:200px;
        margin:20px;
        border-radius:10px;
-   }
+}
