@@ -1,45 +1,46 @@
 .divisao{
-    background-color:white;
-    border-radius:20px;
-    height:280px;
-    width:1300px;
-    overflow-y:visible;
-    overflow-x:scroll;
-    border:5px solid #ccc;
-    padding:10px;
-    white-space: nowrap;
-    display: inline-block;
-     
-   }
-   
-.quadrado{
        background-color:white;
        border-radius:20px;
-       height:150px;
-       width:230px;
+       height:300px;
+       width:1300px;
        overflow-y:visible;
-       overflow-wrap: break-word;
+       overflow-x:scroll;
        border:5px solid #ccc;
        padding:10px;
        white-space: nowrap;
-       display:inline-block;
-       cursor:pointer;
-       
-}
+       display: inline-block;
+        
+      }
    
-   
-.Atividades{
-       background-color:white;
-       border-radius:10px;
-}
-   
-.fotos{
-       display:inline-block;
-       margin:10px;
-       justify-content:center;
-       width:200px;
-       right:200px;
-       left:200px;
-       margin:20px;
-       border-radius:10px;
-}
+      .quadrado{
+          background-color:white;
+          border-radius:20px;
+          height:200px;
+          width:330px;
+          overflow-y:visible;
+          overflow-x:visible;
+          overflow-wrap:normal;
+          border:5px solid #ccc;
+          padding:10px;
+          white-space: nowrap;
+          display:inline-block;
+          cursor:pointer;
+          
+      }
+      
+      
+      .Atividades{
+          background-color:white;
+          border-radius:10px;
+      }
+      
+      .fotos{
+          display:inline-block;
+          margin:10px;
+          justify-content:center;
+          width:200px;
+          right:200px;
+          left:200px;
+          margin:20px;
+          border-radius:10px;
+      }

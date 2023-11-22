@@ -2,6 +2,12 @@ h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+main{
+    background-color:white;
+    padding:30px;
+    border-radius:20px;
+}
+
 .footer-imgs{
     display:inline-block;
     justify-content:center;
@@ -113,4 +119,8 @@ a{
 #nomesite{
     animation-duration:4s;
     animation-name:none;
+}
+
+.lightbox{
+    display:none;
 }
