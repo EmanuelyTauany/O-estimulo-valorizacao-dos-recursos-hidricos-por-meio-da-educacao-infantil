@@ -1,0 +1,214 @@
+.slideshow{
+ flex-direction: column;
+ justify-content:center;
+ display:flex;
+ align-items:center;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.pg{
+ flex-direction:column;
+ justify-content:center;
+}
+
+.fundo{
+    background-color:#0C7689;
+}
+#card_video1{
+    justify-content:start;
+    display:flex;
+    width:320px;
+    height:237px;
+    
+}
+
+.lightbox.transition{
+    transition-duration:10s;
+}
+
+.imggot:hover{
+    filter:brightness(.4);
+    transition:1s;
+}
+
+imggot.selected{
+    filter:brightness(0.4);
+}
+
+html, body {
+    font-size: 16px;
+    text-align:center;
+    font-weight:50px;
+    
+}
+
+
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main{
+    background-color:white;
+    padding:40px;
+    margin:10px;
+    border-radius:20px;
+}
+
+.footer-imgs{
+    display:inline-block;
+    justify-content:center;
+}
+footer{
+    background-color:#004AAD;
+    width:1343px;
+    border-radius:12px;
+    border:10px;
+    padding:20px;
+    border-color: #004AAD;
+}
+.Novidades{
+    background-color:white;
+    width:1300px;
+    padding:10px;
+    margin:auto;
+    border-radius:10px;
+    font-family:cursive;
+}
+
+.sessao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(0, 38, 141);
+    padding:30px;
+    border: 1px solid #ddd;
+    margin: auto;
+    
+}
+
+.gotinhas{
+    display: flex;
+    justify-content:center;
+    padding:40px;
+    margin:10px;
+    background-color:rgb(255, 255, 255);
+    border:1px solid #ddd;
+    border-radius:30px;
+
+}
+
+
+
+
+h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgba(0, 0, 0, 0.938);
+    font-size:30px;
+    
+}
+
+got{
+
+display: inline-block;
+padding:100px;
+margin: 100px;
+text-decoration:none;
+text-align:center;
+justify-content: center;
+margin-right:20px;
+
+}
+
+img{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:center;
+    max-height: 45vh;
+}
+
+a{
+    display:inline-block;
+    text-align:center;
+    text-decoration:none;
+    justify-content:center;
+    margin-right:20px;
+    color: inherit;
+
+}
+a:hover{
+    color:#bbb;
+}
+
+#ondas{
+    right:120px;
+    left:80px;
+    width:1342px;
+}
+
+.viewBox{
+    background-color:white;
+    width:1000px;
+    padding:10px;
+    border-radius:10px;
+
+
+}
+
+#nomesite{
+    font-family:monospace;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    font-size:60px;
+}
+
+
+
+.left-arrow{
+    size:10px;
+}
+
+#nomesite{
+    animation-duration:4s;
+    animation-name:none;
+}
+
+.lightbox{
+    display:none;
+    position:fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+    padding: 1em;
+    background:#000000cc;
+
+}
+
+.lightbox:target{
+  display:block;
+}
+
+.lightbox span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+ 
+}
+
+#card-bootstrap{
+    display:inline-block;
+    left:auto;
+    right:auto;
+
+}
+
+#card-bootstrap2{
+    display:inline-block;
+    left:auto;
+    right:auto;
+}
